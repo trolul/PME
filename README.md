@@ -28,10 +28,11 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
    Configuration DNS dynamique sur Opnsense : 9.9.9.9
 
-   Configuration DNS
+   Configuration DNS :
    
-   Zone directe : PME.fictive vers 192.168.40.51
-   Zones inversées : 10.168.192: MTL-SRV-03 vers 192.168.10.50, etc...
+      - Zone directe : PME.fictive vers 192.168.40.51
+   
+      - Zones inversées : 10.168.192: MTL-SRV-03 vers 192.168.10.50, etc...
 
    Configuration Active Directory :
       - Création d'OU de location : MTL, puis : Département, puis : Local_1, utilisateur, ordinateurs
