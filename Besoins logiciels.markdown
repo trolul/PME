@@ -1,4 +1,4 @@
-# Liste des Logiciels pour la Configuration de PME Fictive
+# Tableau des besoins logiciels
 
 | **Nom du logiciel** | **Rôle** | **Pourquoi ?** |
 |----------------------|------------------------|------------------------|
