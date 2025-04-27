@@ -2,9 +2,19 @@
 
 [Logiciels](https://github.com/trolul/PME_fictive/blob/main/Besoins%20logiciels.markdown) et matériels utilisé : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
-1. Schéma de nommage du matériel : 
+1. Schéma de nommage du matériel :
 
-2. Schéma Physique _(draw.io)_ :
+| **Type d’équipement** | **Convention de nommage** | **Justificatif** |
+|----------------------|------------------------|------------------------|
+| Serveurs physiques  | MTL-SRV-01 | MTL = sucursale,  SRV = serveur , xx = nb séquentiel |
+| Machines virtuelles | MTL-VM-01 | MTL = sucursale,  VM = machine virtuelle , xx = nb séquentiel |
+| Commutateurs        | MTL-SW-01 | MTL = sucursale,   SW = commutateur , xx = nb séquentiel |
+| Routeurs            | MTL-RTR-01 | MTL = sucursale,  RTR = routeur , xx = nb séquentiel |
+| Points d’accès WiFi | MTL-WAP-01 | MTL = sucursale,  WAP = point d'accès , xx = nb séquentiel |
+| Noms d'utilisateurs | User-01 | User = nom + première initiale , xx = nb séquentiel |
+| Postes de travail | MTL-WIN-01 |  MTL = sucursale,  WIN = Poste de travail Windows , xx = nb séquentiel |
+
+3. Schéma Physique _(draw.io)_ :
 
 ![Shéma Physique](https://github.com/user-attachments/assets/c44b668b-45a7-4f7f-b311-7b435983edd1)
 
