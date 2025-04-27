@@ -4,11 +4,11 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
 1. Schéma de nommage du matériel : 
 
-2. Schéma Physique (draw.io) :
+2. Schéma Physique _(draw.io)_ :
 
 ![Shéma Physique](https://github.com/user-attachments/assets/c44b668b-45a7-4f7f-b311-7b435983edd1)
 
-4. Tableau Réseau : 
+4. Tableau réseau : 
 
 | **Nom du sous-réseau** | **Plage d’adresses (CIDR)** | **L'adresse ip de la passerelle** | **Rôle et utilisation** | **Mode d'attribution** | **id du VLAN** |
 |--------|--------|-----|---|---|---|
@@ -19,7 +19,7 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 | DMZ | 192.168.50.0/24 |  192.168.50.1 | Services accèssible uniquement par internet  | statique et dynamique | 50 |
 | FAI | 206.167.46.0/24 |  206.167.46.1 | Fourniseur internet  | statique | 460 |
 
-5. Schéma logique (draw.io) :
+5. Schéma logique _(draw.io)_ :
 
 ![Shéma Logique](https://github.com/user-attachments/assets/ab12eb7c-b429-4fd6-8e51-67dae18de049)
 
