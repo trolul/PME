@@ -10,6 +10,15 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
 4. plan adressage vlans : 
 
+| **Nom du sous-réseau** | **Plage d’adresses (CIDR)** | **L'adresse ip de la passerelle** | **Rôle et utilisation** | **Mode d'attribution** | **id du VLAN** |
+|--------|--------|-----|---|---|---|
+| WIFI_public | 192.168.10.0/24 | 192.168.10.1 | plage assigné au public | statique et dynamique | 10 |
+| Gestion | 192.168.20.0/24  | 192.168.20.1  | Gestion de ESXI | statique et dynamique | 20 |
+| Corporatif | 192.168.30.0/24  | 192.168.30.1  | Gestion des employées | statique et dynamique | 30 |
+| Serveurs | 192.168.40.0/24  | 192.168.40.1  | Gestion des serveurs | statique et dynamique | 40 |
+| DMZ | 192.168.50.0/24 |  192.168.50.1 | Services accèssible uniquement par internet  | statique et dynamique | 50 |
+| FAI | 206.167.46.0/24 |  206.167.46.1 | Fourniseur internet  | statique | 460 |
+
 5. Schéma logique (draw.io) :
 
 ![Shéma Logique](https://github.com/user-attachments/assets/ab12eb7c-b429-4fd6-8e51-67dae18de049)
