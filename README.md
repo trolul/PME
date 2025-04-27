@@ -36,8 +36,8 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
    Configuration Active Directory :
       - Création d'OU de location : MTL, puis : Département, puis : Local_1, utilisateur, ordinateurs
-      - Création d'utilisateur : trolul, membre du groupe : administrateurs domain et techniciens
-      - Création de groupe : techniciens et stratégies de groupe : administrateurs domain, un mot de passe complexe, les connexions distantes via bureau à distance, l'ouverture et fermeture de la session
+      - Création d'utilisateur : trolul, membre du groupe : administrateur domain et techniciens
+      - Création de groupe : techniciens et ses stratégies de groupe : administrateur domain, mdp complexe, bureau à distance, ouverture et fermeture de session
 
    Redirection de port 206.167.46.16 vers IP web almalinux
 
