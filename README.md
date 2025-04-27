@@ -17,18 +17,18 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 6. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01
 
 7. Configuration du commutateur MTL-SW-02 :
-   [Lien vers la configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
+   [Configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
 
 8. Création des VMs : windows server, debian_11, almalinux, windows_10, opnsense
 
 9. Configuration du routeur virtuel Opnsense (NAT, DNS, DHCP, pare-feu, redirection de port) :
-    [Lien vers la configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
+    [Configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
 
 10. Configuration du serveur virtuel web almalinux (HTTPS, domain, nginx) :
 
 11. Lancement du script sur debian_11 :
-   [Lien vers Youtube](https://www.youtube.com/watch?v=LP4dIl8Y_Xw) OU 
-   [Lien vers le script](https://get.glennr.nl/unifi/install/unifi-9.0.114.sh)
+   [Youtube](https://www.youtube.com/watch?v=LP4dIl8Y_Xw) OU 
+   [Script](https://get.glennr.nl/unifi/install/unifi-9.0.114.sh)
 
 11. Configuration des deux accès UniFi :
 
