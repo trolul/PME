@@ -8,7 +8,7 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
 ![Shéma Physique](https://github.com/user-attachments/assets/c44b668b-45a7-4f7f-b311-7b435983edd1)
 
-4. plan adressage vlans : 
+4. Tableau Réseau : 
 
 | **Nom du sous-réseau** | **Plage d’adresses (CIDR)** | **L'adresse ip de la passerelle** | **Rôle et utilisation** | **Mode d'attribution** | **id du VLAN** |
 |--------|--------|-----|---|---|---|
