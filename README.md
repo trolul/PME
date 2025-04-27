@@ -1,4 +1,4 @@
-# Projet PME_fictive réalisé
+# Projet PME_fictive
 
 Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
