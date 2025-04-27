@@ -14,3 +14,11 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 5. Schéma logique (draw.io) :
 
 ![Shéma Logique](https://github.com/user-attachments/assets/ab12eb7c-b429-4fd6-8e51-67dae18de049)
+
+6. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01 :
+
+7. Configuration du commutateur MTL-SW-02 :
+
+
+
+
