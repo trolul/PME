@@ -73,6 +73,7 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
    [Youtube](https://www.youtube.com/watch?v=LP4dIl8Y_Xw)
 
 11. Configuration des deux accès UniFi :
+
    | SSID | VLAN | ID | Sécurité | Modèle AP | Config Réseau |
    | --- | --- | --- | --- | --- | --- |
    | PME-PUBLIC | WIFI_public | 10 | WPA2 | unifi ap pro | 192.168.30.61 |
