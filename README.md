@@ -24,22 +24,14 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 9. Configuration du routeur virtuel Opnsense (NAT, DNS, DHCP, redirection de port) :
     [Configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
 
-   Configuration DHCP dynamique sur Opnsense :
-      - VLAN 10 (WIFI_public) : 192.168.10.50 à 100
-      - VLAN 20 (Gestion) : 192.168.20.50 à 100
-      - VLAN 30 (Corporatif) : 192.168.30.50 à 100
-      - VLAN 40 (Serveurs) : 192.168.40.50 à 100
-      - VLAN 50 (DMZ) : 192.168.50.50 à 100
+   Configuration DHCP dynamique sur Opnsense : VLAN 10 (WIFI_public) : 192.168.10.50 à 100, etc...
 
    Configuration DNS dynamique sur Opnsense : 9.9.9.9
 
    Configuration DNS
-   Zone directe PME.fictive vers 192.168.40.51
-      Zones inversées :
-      - 10.168.192: MTL-SRV-03 vers 192.168.10.50
-      - 20.168.192: MTL-SRV-01 vers 192.168.20.50
-      - 40.168.192: MTL-SRV-02 vers 192.168.40.50
-      - 50.168.192: MTL-SRV-O4 vers 192.168.50.50
+   
+   Zone directe : PME.fictive vers 192.168.40.51
+   Zones inversées : 10.168.192: MTL-SRV-03 vers 192.168.10.50, etc...
 
    Configuration Active Directory :
       - Création d'OU de location : MTL, puis : Département, puis : Local_1, utilisateur, ordinateurs
