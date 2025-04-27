@@ -1,5 +1,5 @@
 # PME_fictive
-Voici mon projet de création d'entreprise fictive que j'ai réalisé.
+# Voici mon projet de création d'entreprise fictive que j'ai réalisé.
 
 Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
@@ -28,11 +28,6 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 10. Configuration du serveur virtuel web almalinux (HTTPS, domain, nginx) :
 
 11. Configuration des deux accès UniFi :
-    [Lien vers la configuration](https://github.com/trolul/PME_fictive/blob/main/Unifi%20Configuration.markdown)
-
-## Wi-Fi Configuration
-
-Below is the UniFi network configuration table:
 
 | SSID | VLAN | ID | Sécurité | Modèle AP | Config Réseau |
 | --- | --- | --- | --- | --- | --- |
