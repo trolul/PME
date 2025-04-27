@@ -34,24 +34,17 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
    Configuration DNS dynamique sur Opnsense : 9.9.9.9
 
    Configuration DNS
-   Zone directe cegepinfonuage.store avec les enregistrements hôtes(A): 192.168.40.51, 192.168.20.10
-
-
-Les zones inverses de 10 à 50.168.192 avec les pointeurs aux enregistrements principaux:
-
-
-20.168.192: MTL-SRV-01 vers 192.168.20.10
-
-
-40.168.192: MTL-SRV-02 vers 192.168.40.50, cegpeinfonuage.store vers 192.168.40.51
-
-
-50.168.192: MTL-SRV-O4 vers 192.168.50.50
+   Zone directe PME.fictive vers 192.168.40.51
+      Zones inversées :
+      - 10.168.192: MTL-SRV-03 vers 192.168.10.50
+      - 20.168.192: MTL-SRV-01 vers 192.168.20.50
+      - 40.168.192: MTL-SRV-02 vers 192.168.40.50
+      - 50.168.192: MTL-SRV-O4 vers 192.168.50.50
 
    Configuration Active Directory :
-      -Création d'OU de location : MTL, puis : Département, puis : Local_1, utilisateur, ordinateurs
-      -Création d'utilisateur : trolul, membre du groupe : administrateurs domain et techniciens
-      -Création de groupe : techniciens et stratégies de groupe : administrateurs domain, un mot de passe complexe, les connexions distantes via bureau à distance, l'ouverture et fermeture de la session
+      - Création d'OU de location : MTL, puis : Département, puis : Local_1, utilisateur, ordinateurs
+      - Création d'utilisateur : trolul, membre du groupe : administrateurs domain et techniciens
+      - Création de groupe : techniciens et stratégies de groupe : administrateurs domain, un mot de passe complexe, les connexions distantes via bureau à distance, l'ouverture et fermeture de la session
 
    Redirection de port 206.167.46.16 vers IP web almalinux
 
