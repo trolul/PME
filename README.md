@@ -19,7 +19,7 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 7. Configuration du commutateur MTL-SW-02 :
    [Configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
 
-8. Création des VMs : windows server, debian_11, almalinux, windows_10, opnsense
+8. Création des VMs : windows_server, debian_11, almalinux, windows_10, opnsense
 
 9. Configuration du routeur virtuel Opnsense (NAT, DNS, DHCP, redirection de port) :
     [Configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
@@ -28,18 +28,37 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
    Configuration DNS dynamique sur Opnsense : 9.9.9.9
 
+| Interface | VLAN associé | Adresse IP | Passerelle |  
+|-----------|-------------|------------|------------|  
+| FAI            |       460     |      206.167.46.16     | 192.168.46.1 |  
+| WIFI_public    |       10      |      192.168.10.1      |              |  
+| gestion        |       20      |      192.168.20.1      |              |  
+| corporatif     |       30      |      192.168.30.1      |              |  
+| serveurs       |       40      |      192.168.40.1      |              |  
+| DMZ            |       50      |      192.168.50.1     |              |  
+
+
+| Règles      | Source | Destination | Protocole    | Port | Action |
+|-------------|--------|-------------|--------------|------|--------|
+| FAI  | *     | *                 | ipv4 TCP/UDP | 80-443   | Block   |
+| gestion  | *     | *          | ipv4 * | any             | Pass   |
+| WIFI_public | * | *         | ipv4 * | any    | Pass   |
+| corporatif  | *    | *     | ipv4 * | any    | Pass   |
+| serveurs  | *     | *         | ipv4 * | any             | Pass   |
+| DMZ  | *     | *                   | ipv4 * | any         | Pass   |
+
+   _À faire après 11. : Redirection de port 206.167.46.16 vers IP web almalinux_
+
+10. Configuration de la VM windows_server :
+
    Configuration DNS :
-   
       - Zone directe : PME.fictive vers 192.168.40.51
-   
       - Zones inversées : 10.168.192: MTL-SRV-03 vers 192.168.10.50, etc...
 
    Configuration Active Directory :
       - Création d'OU de location : MTL, puis : Département, puis : Local_1, utilisateur, ordinateurs
       - Création d'utilisateur : trolul, membre du groupe : administrateur domain et techniciens
       - Création de groupe : techniciens et ses stratégies de groupe : administrateur domain, mdp complexe, bureau à distance, ouverture et fermeture de session
-
-   Redirection de port 206.167.46.16 vers IP web almalinux
 
 11. Configuration d'une VM web almalinux :
     
