@@ -28,25 +28,25 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
    Configuration DNS dynamique sur Opnsense : 9.9.9.9
 
-Configuration des interfaces :
-| Interface | VLAN associé | Adresse IP | Passerelle |  
-|-----------|-------------|------------|------------|  
-| FAI            |       460     |      206.167.46.16     | 192.168.46.1 |  
-| WIFI_public    |       10      |      192.168.10.1      |              |  
-| gestion        |       20      |      192.168.20.1      |              |  
-| corporatif     |       30      |      192.168.30.1      |              |  
-| serveurs       |       40      |      192.168.40.1      |              |  
-| DMZ            |       50      |      192.168.50.1     |              |  
+   Configuration des interfaces :
+   | Interface | VLAN associé | Adresse IP | Passerelle |  
+   |-----------|-------------|------------|------------|  
+   | FAI            |       460     |      206.167.46.16     | 192.168.46.1 |  
+   | WIFI_public    |       10      |      192.168.10.1      |              |  
+   | gestion        |       20      |      192.168.20.1      |              |  
+   | corporatif     |       30      |      192.168.30.1      |              |  
+   | serveurs       |       40      |      192.168.40.1      |              |  
+   | DMZ            |       50      |      192.168.50.1     |              |  
 
-Règles de pare-feu appliquées :
-| Règles      | Source | Destination | Protocole    | Port | Action |
-|-------------|--------|-------------|--------------|------|--------|
-| FAI  | *     | *                 | ipv4 TCP/UDP | 80-443   | Block   |
-| gestion  | *     | *          | ipv4 * | any             | Pass   |
-| WIFI_public | * | *         | ipv4 * | any    | Pass   |
-| corporatif  | *    | *     | ipv4 * | any    | Pass   |
-| serveurs  | *     | *         | ipv4 * | any             | Pass   |
-| DMZ  | *     | *                   | ipv4 * | any         | Pass   |
+   Règles de pare-feu appliquées :
+   | Règles      | Source | Destination | Protocole    | Port | Action |
+   |-------------|--------|-------------|--------------|------|--------|
+   | FAI  | *     | *                 | ipv4 TCP/UDP | 80-443   | Block   |
+   | gestion  | *     | *          | ipv4 * | any             | Pass   |
+   | WIFI_public | * | *         | ipv4 * | any    | Pass   |
+   | corporatif  | *    | *     | ipv4 * | any    | Pass   |
+   | serveurs  | *     | *         | ipv4 * | any             | Pass   |
+   | DMZ  | *     | *                   | ipv4 * | any         | Pass   |
 
    _À faire après 11. : Redirection de port 206.167.46.16 vers IP web almalinux_
 
