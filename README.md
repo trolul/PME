@@ -15,10 +15,18 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
 ![Shéma Logique](https://github.com/user-attachments/assets/ab12eb7c-b429-4fd6-8e51-67dae18de049)
 
-6. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01 :
+6. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01
 
 7. Configuration du commutateur MTL-SW-02 :
    [Lien vers la configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
+
+8. Création des VMs : windows server, debian_11, almalinux, windows_10, opnsense
+
+9. Configuration du routeur virtuel Opnsense (NAT, DNS, DHCP, pare-feu, redirection de port) : 
+    [Lien vers la configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
+
+
+
 
 
 
