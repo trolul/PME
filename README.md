@@ -24,7 +24,12 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 9. Configuration du routeur virtuel Opnsense (NAT, DNS, DHCP, pare-feu, redirection de port) :
     [Configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
 
-10. Configuration d'une VM web almalinux (HTTPS avec Let's Encrypt, domain, nginx) :
+10. Configuration d'une VM web almalinux :
+    
+    Installation de nginx et de HTTPS avec Let's Encrypt
+    
+    Achat de nom de domaine sur namecheap.com :
+    
     ![Host_record](https://github.com/trolul/PME_fictive/blob/main/dns_record.png)
 
 12. Lancement d'un script d'installation UniFi controller sur debian_11 :
