@@ -26,6 +26,10 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 
 10. Configuration du serveur virtuel web almalinux (HTTPS, domain, nginx) :
 
+11. Lancement du script sur debian_11 :
+   [Lien vers Youtube](https://www.youtube.com/watch?v=LP4dIl8Y_Xw)
+   [Lien vers le script](https://get.glennr.nl/unifi/install/unifi-9.0.114.sh)
+
 11. Configuration des deux accès UniFi :
 
 | SSID | VLAN | ID | Sécurité | Modèle AP | Config Réseau |
