@@ -1,5 +1,4 @@
-# PME_fictive
-# Voici mon projet de création d'entreprise fictive que j'ai réalisé.
+# Projet de création PME_fictive que j'ai réalisé
 
 Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
