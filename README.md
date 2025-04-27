@@ -1,6 +1,6 @@
 # Projet PME_fictive
 
-Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
+[Logiciel](https://github.com/trolul/PME_fictive/blob/main/Besoins%20logiciels.markdown) et le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
 1. Schéma de nommage du matériel : 
 
