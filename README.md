@@ -18,7 +18,7 @@ Le matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès 
 6. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01 :
 
 7. Configuration du commutateur MTL-SW-02 :
-
+![test](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
 
 
 
