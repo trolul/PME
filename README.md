@@ -1,6 +1,10 @@
 # PME_fictive
 
-[Logiciels](https://github.com/trolul/PME_fictive/blob/main/Besoins%20logiciels.markdown) et matériels utilisé : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
+Je vous présente mon entreprise informatique fictive, que j'ai réalisée lors de mon DEC en informatique.
+
+Tout d'abord, voici les logiciels et le matériel utilisés :
+
+[Logiciels](https://github.com/trolul/PME_fictive/blob/main/Besoins%20logiciels.markdown) et matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
 1. Schéma de nommage du matériel :
 
