@@ -1,4 +1,4 @@
-# PME_fictive
+# PME
 
 Je vous présente mon entreprise informatique fictive, que j'ai réalisée lors de mon DEC en informatique.
 
