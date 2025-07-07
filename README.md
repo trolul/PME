@@ -99,3 +99,7 @@ Je vous présente mon entreprise informatique fictive. Tout d'abord, voici les l
    | --- | --- | --- | --- | --- | --- |
    | PME-PUBLIC | WIFI_public | 10 | WPA2 | unifi ap pro | 192.168.30.61 |
    | PME-EMPLOYES | Corporatif | 30 | WPA2 | unifi ap pro | 192.168.10.54 |
+
+13. Ajout d'un VPN sur OPNsense, Configuration d'OpenVPN
+
+   [Youtube](https://www.youtube.com/watch?v=yVHJLyIwR5A)
