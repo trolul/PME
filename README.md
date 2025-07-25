@@ -38,10 +38,10 @@ Tout d'abord, voici les logiciels et le matériel utilisés :
 
 5. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01
 
-6. Configuration du commutateur MTL-SW-02 :
+6. Configuration du commutateur MTL-SW-02 (vlan et switchport mode trunk) :
    [Configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
 
-7. Création des VMs : windows_server, debian_11, almalinux, windows_10, opnsense
+7. Création de VMs dans ESXI : windows_server, debian_11, almalinux, windows_10, Opnsense
 
 8. Configuration du routeur virtuel Opnsense (NAT, DNS, DHCP, redirection de port) :
     [Configuration](https://github.com/trolul/PME_fictive/blob/main/config-OPNsense.localdomain.xml)
@@ -58,7 +58,7 @@ Tout d'abord, voici les logiciels et le matériel utilisés :
    | Gestion        |       20      |      192.168.20.1      |              |  
    | Corporatif     |       30      |      192.168.30.1      |              |  
    | Serveurs       |       40      |      192.168.40.1      |              |  
-   | DMZ            |       50      |      192.168.50.1     |              |  
+   | DMZ            |       50      |      192.168.50.1      |              |  
 
    Règles de pare-feu appliquées :
    | Règles      | Source | Destination | Protocole    | Port | Action |
