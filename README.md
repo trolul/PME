@@ -37,7 +37,7 @@
 
 5. Installtion et configuration d'ESXI sur le serveur bare metal MTL-SRV-01
 
-6. Configuration du commutateur MTL-SW-02 (vlan et switchport mode trunk) :
+6. Configuration du commutateur MTL-SW-02 avec SSH et MobaXterm (vlan et switchport mode trunk) :
    [Configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
 
 7. Création de VMs dans ESXI : windows_server, debian_11, almalinux, windows_10, Opnsense
