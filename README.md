@@ -1,7 +1,6 @@
 # PME
 
 ### J'ai réalisé l'infrastructure d'une entreprise informatique fictive. 
-
 ### Tout d'abord, voici les logiciels et le matériel utilisés :
 [Logiciels](https://github.com/trolul/PME_fictive/blob/main/Besoins%20logiciels.markdown) et matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
