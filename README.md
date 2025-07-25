@@ -83,18 +83,18 @@ Tout d'abord, voici les logiciels et le matériel utilisés :
       - Création d'utilisateur : trolul, membre du groupe : administrateur domain et techniciens
       - Création de groupe : techniciens et ses stratégies de groupe : administrateur domain, mdp complexe, bureau à distance, ouverture et fermeture de session
 
-10. Configuration d'une VM web almalinux :
+10. Création et publication d'un site web sur almalinux :
     
-    Installation de nginx et de HTTPS avec Let's Encrypt
+    Installation de nginx et d'HTTPS avec Let's Encrypt
     
-    Achat de nom de domaine sur namecheap.com et configuration du Host_record :
+    Achat du nom de domaine sur namecheap.com et configuration du Host_record :
     
     ![Host_record](https://github.com/trolul/PME_fictive/blob/main/dns_record.png)
 
 11. Lancement d'un script d'installation UniFi controller sur debian_11 :
    [Youtube](https://www.youtube.com/watch?v=LP4dIl8Y_Xw)
 
-12. Configuration des deux accès UniFi :
+12. Configuration des deux points d'accès UniFi :
 
    | SSID | VLAN | ID | Sécurité | Modèle AP | Config Réseau |
    | --- | --- | --- | --- | --- | --- |
