@@ -1,8 +1,8 @@
 # PME
 
-J'ai réalisé l'infrastructure d'une entreprise informatique fictive. 
+###J'ai réalisé l'infrastructure d'une entreprise informatique fictive. 
 
-Tout d'abord, voici les logiciels et le matériel utilisés :
+###Tout d'abord, voici les logiciels et le matériel utilisés :
 [Logiciels](https://github.com/trolul/PME_fictive/blob/main/Besoins%20logiciels.markdown) et matériel : 2 commutateurs, 1 serveur, 4 câbles Ethernet, 2 points d'accès UniFi.
 
 1. Schéma de nommage du matériel :
@@ -36,7 +36,7 @@ Tout d'abord, voici les logiciels et le matériel utilisés :
 
 ![Shéma Logique](https://github.com/user-attachments/assets/ab12eb7c-b429-4fd6-8e51-67dae18de049)
 
-5. Installtion et configuration d'ESXI sur le serveur MTL-SRV-01
+5. Installtion et configuration d'ESXI sur le serveur bare metal MTL-SRV-01
 
 6. Configuration du commutateur MTL-SW-02 (vlan et switchport mode trunk) :
    [Configuration](https://github.com/trolul/PME_fictive/blob/main/startup-config.txt)
@@ -60,7 +60,7 @@ Tout d'abord, voici les logiciels et le matériel utilisés :
    | Serveurs       |       40      |      192.168.40.1      |              |  
    | DMZ            |       50      |      192.168.50.1      |              |  
 
-   Règles de pare-feu appliquées :
+   Règles de pare-feu appliquées (Adapté les règles à la situation) :
    | Règles      | Source | Destination | Protocole    | Port | Action |
    |-------------|--------|-------------|--------------|------|--------|
    | FAI  | *     | *                 | ipv4 TCP/UDP | 80-443   | Pass   |
